@@ -3,7 +3,7 @@
 #include <vector>
 #include "Eigen/Core"
 #include "Eigen/Geometry"
-
+namespace uni_robot{
 namespace planning {
 
 namespace costmap {
@@ -38,7 +38,7 @@ class GridMap{
    std::vector<uint16_t> correspondence_cost_cells_;
    Eigen::AlignedBox2i known_cells_box_;
 };
-
+}
 }  // namespace costmap
 
 }  // namespace planning

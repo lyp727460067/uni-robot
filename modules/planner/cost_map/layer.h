@@ -2,9 +2,8 @@
 #define _LAYER_H
 #include  <memory>
 #include  "grid_map.h"
-
+namespace uni_robot{
 namespace planning {
-
 namespace costmap {
   class Layer
   {
@@ -17,7 +16,7 @@ namespace costmap {
 
 
   }
-
+}
 
 }
 }  // namespace planning
